@@ -5,11 +5,19 @@ package com.yomo.suanfa.node;
  * @since 2022/10/17
  */
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
+
+    public ListNode() {
+    }
 
     public ListNode(int val) {
         this.val = val;
+    }
+
+    public ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
     }
 
     @Override

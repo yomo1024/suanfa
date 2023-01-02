@@ -32,7 +32,7 @@ public class GreateNode {
         }
     }
 
-    private static int[] show(ListNode nextNode) {
+    public static int[] show(ListNode nextNode) {
         if (nextNode == null) return new int[0];
         while (nextNode.next != null) {
             nextNode = nextNode.next;
